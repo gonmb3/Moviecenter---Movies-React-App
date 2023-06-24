@@ -13,7 +13,7 @@ const MovieInfo = ({ movie }) => {
         alt={movie.name}
         className="w-full  xl:inline-block h-full object-cover "
       />
-      <div className="xl:bg-main/80 bg-dry flex-colo xl:bg-opacity-90 xl:absolute top-0 left-0 right-0 -bottom-[96px] ">
+      <div className="xl:bg-main/90 bg-dry flex-colo xl:bg-opacity-90 xl:absolute top-0 left-0 right-0 -bottom-[96px] ">
         <div className="container px-3 mx-auto 2xl:px-32 xl:grid grid-cols-3 flex-colo py-10 lg:py-20 gap-8">
           <div className="xl:col-span-1 w-full xl:order-none order-last h-header bg-dry border-gray-800 rounded-lg overflow-hidden">
             {/* movie image */}
