@@ -50,7 +50,7 @@ const Series = () => {
 
                   <div className="px-4 hoveres gap-6 text-center absolute bg-black bg-opacity-70 top-0 left-0 right-0 bottom-0    ">
                    {/* favorite heart icon */}
-                    <button className="w-12 h-12 flex-colo transitions hover:bg-subMain rounded-full bg-white bg-opacity-30 text-white">
+                    <button className="w-12 h-12 flex-colo transitions hover:bg-subMain rounded-full bg-white bg-opacity-40 text-white">
                       <FaHeart />
                     </button>
                       {/* movie name */}
@@ -61,7 +61,7 @@ const Series = () => {
                       {/* Star rating component */}
                     <Stars value={movie.rate} />
                     </div>
-                  </div>
+                </div>
 
                   </div>
               </SwiperSlide>
