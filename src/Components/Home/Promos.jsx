@@ -27,7 +27,7 @@ const Promos = () => {
 
             {/* right side promo */}
             <div className="">
-              <img src="/src/images/mobile.png" alt="Mobile app" className="w-full object-contain" />
+              <img src="/images/mobile.png" alt="Mobile app" className="w-full object-contain" />
             </div>
       </div>
     </div>

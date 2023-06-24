@@ -9,7 +9,7 @@ const MovieInfo = ({ movie }) => {
     <div className="w-full xl:h-screen realtive text-white">
       {/* background movie image */}
       <img
-        src={`/src/images/movies/${movie?.image}`}
+        src={`/images/movies/${movie?.image}`}
         alt={movie.name}
         className="w-full  xl:inline-block h-full object-cover "
       />
@@ -18,7 +18,7 @@ const MovieInfo = ({ movie }) => {
           <div className="xl:col-span-1 w-full xl:order-none order-last h-header bg-dry border-gray-800 rounded-lg overflow-hidden">
             {/* movie image */}
             <img
-              src={`/src/images/movies/${movie?.titleImage}`}
+              src={`/images/movies/${movie?.titleImage}`}
               alt={movie.name}
               className="w-full  h-full object-cover"
             />

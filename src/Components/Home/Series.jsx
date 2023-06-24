@@ -46,7 +46,7 @@ const Series = () => {
               <SwiperSlide key={index}>
               <div className="p-4 h-[510px] md:h-[430px]  border hovered border-border bg-dry hovered rounded-lg overflow-hidden">
                 {/* image */}
-                 <img src={`/src/images/movies/${movie.titleImage}`} alt={movie.name}  className=" w-full h-full  object-cover rounded-lg  " />
+                 <img src={`/images/movies/${movie.titleImage}`} alt={movie.name}  className=" w-full h-full  object-cover rounded-lg  " />
 
                   <div className="px-4 hoveres gap-6 text-center absolute bg-black bg-opacity-70 top-0 left-0 right-0 bottom-0    ">
                    {/* favorite heart icon */}
