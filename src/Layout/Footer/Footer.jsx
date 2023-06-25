@@ -22,7 +22,7 @@ const Footer = () => {
           link :"/contacto"
         },
         {
-          name:"Peliculas",
+          name:"Películas",
           link:"/peliculas"
         },
         
@@ -46,7 +46,7 @@ const Footer = () => {
           link :"#"
         },
         {
-          name:"Historicas",
+          name:"Históricas",
           link:"#"
         },
         

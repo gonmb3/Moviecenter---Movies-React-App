@@ -14,7 +14,7 @@ const WatchPage = () => {
   const [play, setPlay] = useState(false)
   return (
     <Layout>
-          <div className="container mx-auto bg-dry px-2 mb-6">
+          <div className="container mx-auto bg-main px-2 mb-6  ">
                 <div className="flex-btn flex-wrap mb-2 bg-main rounded border border-gray-800 p-6">
                   <Link to={`/pelicula/${movie.name}`}  className="md:text-xl text-sm flex gap-3 items-center font-bold text-white">
                       <BiArrowBack /> {movie?.name}
@@ -32,17 +32,17 @@ const WatchPage = () => {
                 {/* watch video */}
                 {
                   play ? (
-                  <video className='w-full rounded h-full ' autoPlay={true} controls={true}>
-                    <source src={"/images/movie.mp4"} type="video/mp4" title={movie?.name}/>
+                  <video className='w-full rounded p-32  ' autoPlay={true} controls={true}>
+                    <source src={"/images/movie.mp4"} type="video/mp4" title={movie?.name} className=''/>
                   </video>) : (
-                    <div className="w-full h-screen rounded-lg overflow-hidden relative">
+                    <div className="w-full h-screen rounded-lg overflow-hidden relative p-32" >
                       <div className="absolute top-0 left-0 bottom-0 right-0 bg-main bg-opacity-30 flex-colo ">
                             <button onClick={() => setPlay(true)} className='bg-subMain text-white flex-colo border border-white  rounded-full w-20 h-20 font-medium text-xl '>
                                 <FaPlay />
                             </button>
                       </div>
                       <img
-                      className='w-full h-full object-cover rounded-lg'
+                      className='w-full h-full object-cover rounded-lg border-2  border-gray-800'
                        src={movie?.image ?  `/images/movies/${movie.image}` :  "images/user.png "}
                         alt={movie?.name} />
                     </div>

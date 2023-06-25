@@ -10,20 +10,20 @@ const Filters = () => {
   //filters data
 
   const yearData = [
-    { title: "Buscar por Año" },
+    { title: "Año" },
     { title: "1950 - 1970" },
     { title: "1970 - 1990" },
     { title: "1990 - 2010" },
     { title: "2010 - 2023" },
   ];
   const timesData = [
-    { title: "Buscar por Horas" },
-    { title: "1 - 2 Horas" },
-    { title: "2 - 3 Horas" },
-    { title: "3 - 4 Horas" },
+    { title: "Duración" },
+    { title: "1 - 2 Hrs" },
+    { title: "2 - 3 Hrs" },
+    { title: "3 - 4 Hrs" },
   ];
   const ratingData = [
-    { title: "Buscar por Rating" },
+    { title: "Estrellas" },
     { title: "1 Estrella" },
     { title: "2 Estrellas" },
     { title: "3 Estrellas" },
