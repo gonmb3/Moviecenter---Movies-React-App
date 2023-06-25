@@ -63,7 +63,7 @@ const MovieInfo = ({ movie }) => {
                 <div className="sm:col-span-2 col-span-3 flex justify-end font-medium text-sm">
                   <Link
                     to={`/mirar/${movie?.name}`}
-                    className="bg-dry hover:bg-subMain transitions border-2 border-subMain rounded-full flex-rows gap-4 w-full sm:py-3"
+                    className="bg-dry hover:bg-subMain transitions py-4 border-2 border-subMain rounded-full flex-rows gap-4 w-full "
                   >
                     <FaPlay className="w-3 h-3" /> Ver
                   </Link>

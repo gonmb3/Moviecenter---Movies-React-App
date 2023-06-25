@@ -146,41 +146,37 @@ export const Movies = [
 
 export const UsersData = [
   {
-    fullName: 'Tom Cruise',
+    fullName: 'Michael B. Jordan ',
     image: 'c1.png',
-    email: 'tomcruise@gmail.com',
     rate: 4.5,
     message:
       'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
   },
   {
-    fullName: 'Emily Blunt',
+    fullName: 'Vin Diesel',
     image: 'c2.png',
-    email: 'emilyblunt@gmail.com',
-    rate: 0.5,
+    rate: 5,
     message:
       'There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
   },
   {
-    fullName: 'John Snow',
+    fullName: 'Morgan Freeman',
     image: 'c3.png',
-    email: 'johnsnow@gmail.com',
-    rate: 2.5,
+    rate: 2,
     message: 'The majority have suffered alteration.',
   },
   {
     fullName: 'Will Smith',
     image: 'c4.png',
     email: 'willsmith@gmail.com',
-    rate: 5,
+    rate: 3,
     message:
       'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
   },
   {
-    fullName: 'Minah Lee',
-    email: 'minahlee@gmail.com',
+    fullName: 'Emilia Clarke',
     image: 'c5.png',
-    rate: 1.5,
+    rate: 5,
     message:
       'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
   },

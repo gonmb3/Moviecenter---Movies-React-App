@@ -103,8 +103,8 @@ const Footer = () => {
 
           <div className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3 ">
           <Link to="/" >
-          <h2 className="text-[18px] xl:text-[22px] font-bold tracking-widest flex "> <span className="text-subMain flex-rows">
-             <AiFillStar size={33} className=" mx-1 hover:rotate-180 duration-700" /> {" "} MOVIE</span>CENTER</h2>
+          <h2 className="text-[16px] xl:text-[20px] font-bold tracking-widest flex items-center mr-2"> <span className="text-subMain flex-rows">
+             <AiFillStar size={33} className=" mx-1 hover:rotate-180 duration-500" /> {" "} MOVIE</span>CENTER</h2>
           </Link>
                           <p className='padding leading-7 text-sm text-border mt-3 flex-col'>
                              <span> Lorem ipsum dolor sit amet, </span>  <br />  consectetur adipisiarum ti <br />

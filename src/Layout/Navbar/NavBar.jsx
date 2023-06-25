@@ -15,12 +15,12 @@ const NavBar = () => {
              {/* logo */}
         <div className="col-span-1 lg:block hidden">
           <Link to="/" >
-          <h2 className="text-[18px] xl:text-[22px] font-bold tracking-widest flex "> <span className="text-subMain flex-rows">
+          <h2 className="text-[16px] xl:text-[20px] font-bold tracking-widest flex items-center mr-2"> <span className="text-subMain flex-rows">
              <AiFillStar size={33} className=" mx-1 hover:rotate-180 duration-500" /> {" "} MOVIE</span>CENTER</h2>
           </Link>
         </div>
         {/* search form */}
-        <div className="col-span-3 ml-5">
+        <div className="col-span-3 ml-10">
           <form
             action=""
             className="w-full text-sm bg-dryGray rounded flex-btn gap-4"

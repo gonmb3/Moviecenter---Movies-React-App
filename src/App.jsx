@@ -7,6 +7,7 @@ import Contact from './Pages/Contact'
 import Login from './Pages/Login'
 import Movies from './Pages/Movies'
 import SingleMovie from './Pages/SingleMovie'
+import WatchPage from './Pages/WatchPage'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/contacto" element={<Contact />} />
       <Route path="/peliculas" element={<Movies />} />
       <Route path="/pelicula/:id" element={<SingleMovie />} />
+      <Route path="/mirar/:id" element={<WatchPage />} />
       <Route path="/iniciarsesion" element={<Login />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
