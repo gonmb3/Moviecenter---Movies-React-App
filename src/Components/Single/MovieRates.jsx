@@ -16,11 +16,14 @@ const MovieRates = ({movie}) => {
   {/* ratings data for UsedInInputs component - ( Select ) */}
   const Ratings = [
     {
-      title:"0 - Muy Malo",
+      title:"Puntaje",
+    },
+    {
+      title:"0 - Muy Mala",
       value: 0,
     },
     {
-      title:"1 - Malo",
+      title:"1 - Mala",
       value: 1,
     },
     {
@@ -58,6 +61,7 @@ const MovieRates = ({movie}) => {
            <div className="text-sm w-full">
        {/* UsedInInputs component   (Select) */}
              <Select
+             placeholder={"Escribe tu reseña..."}
               label={"Seleccionar Puntaje"} 
               options={Ratings} 
               onChange={e => setRating(e.target.value)}

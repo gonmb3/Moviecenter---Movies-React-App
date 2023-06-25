@@ -53,7 +53,7 @@ const NavBar = () => {
           </NavLink>
 
           <div className="flex gap-x-4 items-center">
-            <NavLink to="/iniciarsesion" className={Hover}>
+            <NavLink to="/cuenta" className={Hover}>
               <BiUser className="w-6 h-6" />
             </NavLink>
 

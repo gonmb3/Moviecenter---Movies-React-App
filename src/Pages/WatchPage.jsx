@@ -15,9 +15,9 @@ const WatchPage = () => {
   return (
     <Layout>
           <div className="container mx-auto bg-main px-2 mb-6  ">
-                <div className="flex-btn flex-wrap mb-2 bg-main rounded border border-gray-800 p-6">
-                  <Link to={`/pelicula/${movie.name}`}  className="md:text-xl text-sm flex gap-3 items-center font-bold text-white">
-                      <BiArrowBack /> {movie?.name}
+                <div className="flex-btn flex-wrap mb-2 bg-main rounded border border-gray-800 p-4">
+                  <Link to={`/pelicula/${movie.name}`}  className="md:text-xl text-sm flex gap-3 py-5 items-center font-bold text-text">
+                      <BiArrowBack size={24} /> {movie?.name}
                   </Link>
                   <div className="flex-btn sm:w-auto w-full gap-5">
                     <button className='bg-white hover:text-subMain transitions bg-opacity-30 text-white rounded px-4 py-3 text-sm'>
@@ -32,19 +32,23 @@ const WatchPage = () => {
                 {/* watch video */}
                 {
                   play ? (
-                  <video className='w-full rounded p-32  ' autoPlay={true} controls={true}>
-                    <source src={"/images/movie.mp4"} type="video/mp4" title={movie?.name} className=''/>
+                  <video className='w-full h-[50vh] md:h-[80vh]  rounded p-1 md:p-5  my-5' autoPlay={true} controls={true}>
+                          {/* video  */}
+                    <source src={"/images/movie.mp4"} type="video/mp4" title={movie?.name}/>
                   </video>) : (
-                    <div className="w-full h-screen rounded-lg overflow-hidden relative p-32" >
+
+                    <div className="w-full h-[50vh] md:h-screen rounded-lg overflow-hidden relative p-1 md:p-5  my-10 " >
                       <div className="absolute top-0 left-0 bottom-0 right-0 bg-main bg-opacity-30 flex-colo ">
                             <button onClick={() => setPlay(true)} className='bg-subMain text-white flex-colo border border-white  rounded-full w-20 h-20 font-medium text-xl '>
                                 <FaPlay />
                             </button>
                       </div>
+                      {/* image video background */}
                       <img
-                      className='w-full h-full object-cover rounded-lg border-2  border-gray-800'
+                      className='w-full h-full object-cover rounded-lg border   border-gray-80'
                        src={movie?.image ?  `/images/movies/${movie.image}` :  "images/user.png "}
-                        alt={movie?.name} />
+                        alt={movie?.name} 
+                      />
                     </div>
                   )
                 }

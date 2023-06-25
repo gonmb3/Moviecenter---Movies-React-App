@@ -67,7 +67,7 @@ const Footer = () => {
 
         {
           name:"Perfil",
-          link :"/perfil"
+          link :"/cuenta"
         },
         {
           name:"Cambiar Contraseña",

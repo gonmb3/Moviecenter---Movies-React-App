@@ -12,15 +12,16 @@ export const Message = ({label,placeholder}) => {
   )
 }
 
-export const Select = ({label, options, onChange}) => {
+export const Select = ({label, options, onChange,placeholder}) => {
   return (
     <>
     <label className="text-border font-semibold">{label}</label>
       <select
+  
       onChange={onChange}
        className="w-full mt-2 px-6 py-4 text-text bg-main border border-border rounded ">
         {options.map((o, index) => (
-          <option key={index} value={o.value}>
+          <option key={index} value={o.value} >
               {o.title}
           </option>
         ))}
