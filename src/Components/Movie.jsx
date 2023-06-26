@@ -13,7 +13,7 @@ const Movie = ({ movie }) => {
             className="w-full h-full object-cover   rounded"
           />
       </Link>
-      <div className="absolute flex-btn gap-2 bottom-0 right-0 left-0 bg-main b text-white px-4 py-3">
+      <div className="absolute flex-btn gap-2 bottom-0 right-0 left-0 bg-main  text-white px-4 py-3">
             {/* movie name */}
             <h3 className="font-semibold truncate">{movie?.name} </h3>
             {/* favorite button */}

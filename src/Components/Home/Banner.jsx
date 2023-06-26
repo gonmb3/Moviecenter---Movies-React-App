@@ -1,4 +1,4 @@
-import { Movies } from "../../Data/MovieData";
+import { BannerMovies } from "../../Data/MovieData";
 import FlexMovieItems from "../FlexMovieItems";
 
 import { Link } from "react-router-dom";
@@ -24,7 +24,7 @@ const Banner = () => {
       >
         
         {/* movies data  */}
-        {Movies.slice(0, 6).map((movie, index) => (
+        {BannerMovies.slice(0, 6).map((movie, index) => (
           <SwiperSlide
             key={index}
             className="relative  rounded-xl overflow-hidden "

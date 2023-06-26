@@ -72,7 +72,7 @@ const AboutUs = () => {
 
             {/* right side */}
             <div className="mt-10 lg:mt-0">
-              <img src="/images/about2.jpg" alt="Nosotros-img" className="w-full xl:block hidden h-[750px] rounded-lg object-cover bg-bottom" />
+              <img src="/images/about2.jpg" alt="Nosotros-img" className="w-full xl:block hidden h-[650px] rounded-lg object-cover bg-bottom" />
             </div>
           </div>
         </div>

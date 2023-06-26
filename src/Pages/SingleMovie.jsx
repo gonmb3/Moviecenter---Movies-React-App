@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom'
 import { Movies } from '../Data/MovieData';
 
 import MovieInfo from '../Components/Single/MovieInfo';
-import MovieCasts from '../Components/Single/MovieCasts';
 import MovieRates from '../Components/Single/MovieRates';
 
 import Titles from '../Components/Titles';
@@ -24,7 +23,7 @@ const SingleMovie = () => {
       <MovieInfo  movie={movie} />
 
       <div className="container mx-auto min-h-screen px-2 py-6">
-          <MovieCasts />
+
               {/*rate */}
           <MovieRates movie={movie} />
               {/*related */}

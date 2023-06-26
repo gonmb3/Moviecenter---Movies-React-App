@@ -54,11 +54,14 @@ const MovieRates = ({movie}) => {
           <div className="xl:col-span-2 w-full flex flex-col gap-8">
             {/* review movie name */}
            <h3 className='text-xl text-text  font-semibold'>Reseña de "{movie?.name}" </h3>
-           
-           <p className='text-sm leading-7 font-medium text-border'>
-            Escribe una reseña para esta pelicula. Lorem ipsum dolor sit amet consectetur.
-           </p>
+
            <div className="text-sm w-full">
+            
+            <div className="flex flex-col py-5">
+              
+              <label htmlFor="" className='font-medium'>Nombre</label>
+              <input type="text" placeholder='Nombre...'  className='w-full h-5 mt-2 text-white p-6 bg-main border border-border'/>
+            </div>
        {/* UsedInInputs component   (Select) */}
              <Select
              placeholder={"Escribe tu reseña..."}
@@ -78,19 +81,20 @@ const MovieRates = ({movie}) => {
               Enviar
          </button>
           </div>
-          {/*  REVIWERS  */}
+
+          {/*  REVIWES  */}
           <div className="col-span-3 flex flex-col gap-6">
-            <h3 className='text-xl text-text font-semibold'>Reseñas (6) </h3>
+            <h3 className='text-xl text-text font-semibold'>Reseñas (5) </h3>
             <div className="w-full flex flex-col bg-main gap-6 rounded-lg md:p-12 p-6 h-header overflow-y-scroll">
                 {
                   UsersData.map((user,index) => (
                     <div  key={index} className="md:grid flex-col w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg">
-                          <div className="col-span-2 hidden md:block">
+                          <div className="col-span-2 mx-auto hidden md:block ">
                             {/*image */}
                             <img 
                             src={`/images/${user ? user.image : "user.jpg" }`} 
                             alt={user?.fullName}
-                             className='w-full h-24 object-cover rounded-lg' />
+                             className='h-16 w-16 object-cover rounded-full' />
                           </div>
                            {/*name */}
                           <div className="col-span-7 flex-col gap-2">
