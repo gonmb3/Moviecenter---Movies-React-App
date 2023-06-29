@@ -46,7 +46,7 @@ const MovieRates = ({movie}) => {
   
 
   return (
-    <div className='my-12'>
+    <div className='my-12 '>
       {/* Title component */}
         <Titles title="Reseñas" Icon={BiSolidBookmarkStar }  />
          {/* Review */}

@@ -107,11 +107,11 @@ const Footer = () => {
              <AiFillStar size={33} className=" mx-1 hover:rotate-180 duration-500" /> {" "} MOVIE</span>CENTER</h2>
           </Link>
                           <p className='padding leading-7 text-sm text-border mt-3 flex-col'>
-                             <span> Lorem ipsum dolor sit amet, </span>  <br />  consectetur adipisiarum ti <br />
-                            
-                             <span>Telefono: +598 099 555 666</span>
+                             <span> Lorem ipsum dolor sit amet, </span>  <br />  consectetur adipisiarum ti  <br />
+                             <span>Telefono: +598 099 555 666</span> <br />
                              <span>Email: moviecenter@gmail.com</span>
                           </p>
+                        
           </div>
           </div>
       </div>

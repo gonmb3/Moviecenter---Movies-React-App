@@ -11,7 +11,7 @@ const MovieInfo = ({ movie }) => {
       <img
         src={`/images/movies/${movie?.image}`}
         alt={movie.name}
-        className="w-full  xl:inline-block h-full object-cover "
+        className="w-full  xl:inline-block lg:h-full hidden object-cover object-top "
       />
       <div className="xl:bg-main/90 bg-dry flex-colo xl:bg-opacity-90 xl:absolute top-0 left-0 right-0 -bottom-[96px] ">
         <div className="container px-3 mx-auto 2xl:px-32 xl:grid grid-cols-3 flex-colo py-10 lg:py-20 gap-8">

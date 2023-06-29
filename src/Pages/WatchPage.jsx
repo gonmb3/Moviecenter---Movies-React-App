@@ -32,12 +32,12 @@ const WatchPage = () => {
                 {/* watch video */}
                 {
                   play ? (
-                  <video className='w-full h-[50vh] md:h-[80vh]  rounded p-1 md:p-5  my-5' autoPlay={true} controls={true}>
+                  <video className='w-full h-[40vh] md:h-[60vh]  lg:h-[80vh]  rounded p-1 md:p-5  my-5' autoPlay={true} controls={true}>
                           {/* video  */}
                     <source src={"/images/movie.mp4"} type="video/mp4" title={movie?.name}/>
                   </video>) : (
 
-                    <div className="w-full h-[50vh] md:h-screen rounded-lg overflow-hidden relative p-1 md:p-5  my-10 " >
+                    <div className="w-full h-[40vh] md:h-[60vh]  lg:h-[80vh] rounded-lg overflow-hidden relative p-1 md:p-5  my-10 " >
                       <div className="absolute top-0 left-0 bottom-0 right-0 bg-main bg-opacity-30 flex-colo ">
                             <button onClick={() => setPlay(true)} className='bg-subMain text-white flex-colo border border-white  rounded-full w-20 h-20 font-medium text-xl '>
                                 <FaPlay />
@@ -45,7 +45,7 @@ const WatchPage = () => {
                       </div>
                       {/* image video background */}
                       <img
-                      className='w-full h-full object-cover rounded-lg border   border-gray-80'
+                      className='w-full h-full object-cover object-top rounded-lg border   border-gray-80'
                        src={movie?.image ?  `/images/movies/${movie.image}` :  "images/user.png "}
                         alt={movie?.name} 
                       />

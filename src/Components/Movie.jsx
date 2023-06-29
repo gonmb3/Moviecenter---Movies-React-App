@@ -10,7 +10,7 @@ const Movie = ({ movie }) => {
           <img
             src={`/images/movies/${movie?.image}`}
             alt={movie?.name}
-            className="w-full h-full object-cover   rounded"
+            className="w-full h-full object-cover  rounded"
           />
       </Link>
       <div className="absolute flex-btn gap-2 bottom-0 right-0 left-0 bg-main  text-white px-4 py-3">

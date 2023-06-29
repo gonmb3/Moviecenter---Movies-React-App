@@ -40,8 +40,7 @@ const TopRated = () => {
           navigation={{ nextEl, prevEl }}
           slidesPerView={4}
           spaceBetween={30}
-          autoplay={true}
-          speed={1500}
+          autoplay={false}
           loop={true}
          modules={[Navigation, Autoplay]}
         >
