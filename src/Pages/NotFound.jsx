@@ -11,15 +11,14 @@ function NotFound() {
         alt="notfound"
       />
       <h1 className="lg:text-4xl font-bold">Page Not Found</h1>
-      <p className="font-medium text-border italic leading-6">
-        The page you are looking for does not exist. You may have mistyped the
-        URL
+      <p className="font-medium text-border italic leading-6 text-center">
+        La pagina que estas buscando no existe
       </p>
       <Link
         to="/"
         className="bg-subMain transitions text-white flex-rows gap-4 font-medium py-3 hover:text-main px-6 rounded-md"
       >
-        <BiHomeAlt /> Back Home
+        <BiHomeAlt /> Regresar
       </Link>
     </div>
   );

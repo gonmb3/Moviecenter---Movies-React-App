@@ -78,6 +78,19 @@ export const Movies = [
     reviews: 23,
   },
   {
+    name: 'Batman',
+    desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
+    titleImage: '111.webp',
+    image: '11.jpg',
+    category: 'Acción , Fantasia',
+    language: 'Español',
+    year: '2011',
+    time: '3hs',
+    video: '',
+    rate: 4,
+    reviews: 262,
+  },
+  {
     name: 'Volver al Futuro',
     desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
     titleImage: '77.jpg',
@@ -128,19 +141,6 @@ export const Movies = [
     video: '',
     rate: 4,
     reviews: 200,
-  },
-  {
-    name: 'Games of Thrones',
-    desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
-    titleImage: '111.webp',
-    image: '11.jpg',
-    category: 'Acción , Fantasia',
-    language: 'Español',
-    year: '2011',
-    time: '25hs',
-    video: '',
-    rate: 4,
-    reviews: 262,
   },
 ];
 
@@ -267,11 +267,11 @@ export const UsersData = [
 
 export const SeriesData = [
   {
-    name: 'Los Soprano',
+    name: 'Los Sopranos',
     desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
     titleImage: '11a.jpg',
     image: '1.jpg',
-    category: 'Animación',
+    category: 'Acción',
     language: 'Español',
     year: '2023',
     time: '2hr',
@@ -284,7 +284,7 @@ export const SeriesData = [
     desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
     titleImage: '222.jpeg',
     image: '2.jpeg',
-    category: 'Fantasia',
+    category: 'Drama',
     language: 'Español',
     year: '2023',
     time: '2hr',

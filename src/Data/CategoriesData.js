@@ -25,7 +25,7 @@ export const CategoriesData = [
   },
   {
     _id: '7',
-    title: 'Fantasia',
+    title: 'Fantasía',
   },
   {
     _id: '8',

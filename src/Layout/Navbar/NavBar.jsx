@@ -16,7 +16,7 @@ const NavBar = () => {
         <div className="col-span-1 lg:block hidden">
           <Link to="/" >
           <h2 className="text-[16px] xl:text-[20px] font-bold tracking-widest flex items-center mr-2"> <span className="text-subMain flex-rows">
-             <AiFillStar size={33} className=" mx-1 hover:rotate-180 duration-500" /> {" "} MOVIE</span>CENTER</h2>
+             <AiFillStar size={33} className=" mx-1" /> {" "} MOVIE</span>CENTER</h2>
           </Link>
         </div>
         {/* search form */}
