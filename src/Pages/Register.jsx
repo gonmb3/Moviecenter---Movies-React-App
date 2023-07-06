@@ -18,6 +18,7 @@ const Register = () => {
                placeholder="Usuario" 
                type="text"
                 bg={true} 
+                required
                 />
 
                 <Input
@@ -25,6 +26,7 @@ const Register = () => {
                placeholder="usuario@gmail.com" 
                type="email"
                 bg={true} 
+                required
                 />
 
 
@@ -33,9 +35,10 @@ const Register = () => {
                placeholder="*********" 
                type="password"
                 bg={true} 
+                required
                 />
 
-              <Link to="/dashboard" className="bg-subMain transitions hover:bg-main flex-rows gap-4 text-white p-4 rounded-lg w-full">
+              <Link to="#" className="bg-subMain transitions hover:bg-main flex-rows gap-4 text-white p-4 rounded-lg w-full">
               <FiLogIn /> Registrate
               </Link>
 

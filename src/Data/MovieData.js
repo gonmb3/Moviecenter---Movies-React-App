@@ -1,3 +1,4 @@
+//movies data
 export const Movies = [
   {
     name: 'John Wick 4',
@@ -143,7 +144,7 @@ export const Movies = [
     reviews: 200,
   },
 ];
-
+//banner data
 export const BannerMovies = [
   {
     name: 'John Wick 4',
@@ -225,6 +226,7 @@ export const BannerMovies = [
   },
 ]
 
+//user coments data
 export const UsersData = [
   {
     fullName: 'Juan ',
@@ -263,17 +265,16 @@ export const UsersData = [
   },
 ];
 
-
-
+//series data
 export const SeriesData = [
   {
-    name: 'Los Sopranos',
+    name: 'Los Soprano',
     desc: 'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.',
     titleImage: '11a.jpg',
     image: '1.jpg',
     category: 'Acción',
     language: 'Español',
-    year: '2023',
+    year: '2002',
     time: '2hr',
     video: '',
     rate: 5,

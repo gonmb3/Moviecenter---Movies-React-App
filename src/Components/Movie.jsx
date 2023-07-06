@@ -1,8 +1,12 @@
-import React from "react";
+import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Movie = ({ movie }) => {
+
+  
+    
+
   return (
     <div className="border border-border hover:scale-95 transitions relative rounded overflow-hidden h-[460px] p-5">
       {/* image */}
@@ -17,7 +21,9 @@ const Movie = ({ movie }) => {
             {/* movie name */}
             <h3 className="font-semibold truncate">{movie?.name} </h3>
             {/* favorite button */}
-            <button className="h-9 w-9 text-sm flex-colo transitions hover:bg-transparent border-2 border-subMain rounded-md bg-subMain text-white">
+            <button 
+
+            className="h-9 w-9 text-sm flex-colo transitions hover:bg-transparent border-2 border-subMain rounded-md bg-subMain text-white">
               <FaHeart />
             </button>
       </div>

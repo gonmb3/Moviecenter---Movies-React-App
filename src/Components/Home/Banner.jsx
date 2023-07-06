@@ -49,7 +49,7 @@ const Banner = () => {
               </div>
                {/* watch button & heart favorite icon */}
               <div className="flex gap-5 items-center text-dryGray">
-              <Link to={`/peliculas/${movie.name}`} className="bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs">
+              <Link to={`/pelicula/${movie.name}`} className="bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs">
                   Mirar
               </Link>
               <button className="bg-white hover:text-subMain transitions text-white px-4 py-3 rounded text-sm  bg-opacity-30">
