@@ -84,7 +84,7 @@ const MovieRates = ({movie}) => {
 
           {/*  REVIWES  */}
           <div className="col-span-3 flex flex-col gap-6">
-            <h3 className='text-xl text-text font-semibold'>Reseñas (5) </h3>
+            <h3 className='text-xl text-text font-semibold'>Reseñas  </h3>
             <div className="w-full flex flex-col bg-main gap-6 rounded-lg md:p-12 p-6 h-header overflow-y-scroll">
                 {
                   UsersData.map((user,index) => (

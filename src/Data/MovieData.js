@@ -237,32 +237,20 @@ export const UsersData = [
   },
   {
     fullName: 'Pedro',
-    image: 'c2.png',
+    image: 'c1.png',
     rate: 5,
     message:
       'Sit amet, consecetur adipiscing elsedpiscing elseddo edo eiusmsum avai.',
   },
   {
     fullName: 'Maria',
-    image: 'c3.png',
+    image: 'c1.png',
     rate: 2,
     message: 'The mar sit amet, consecetur adieddo eiusmsum avai.',
   },
-  {
-    fullName: 'Martin',
-    image: 'c4.png',
-    email: 'willsmith@gmail.com',
-    rate: 3,
-    message:
-      'Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmsum avail, but the majority have suffered alteration.',
-  },
-  {
-    fullName: 'Emilia',
-    image: 'c5.png',
-    rate: 5,
-    message:
-      'Lorem ipsum dolor sit amet, consecele, but the majority have suffered alteration.',
-  },
+  
+
+
 ];
 
 //series data

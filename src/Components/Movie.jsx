@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 
 const Movie = ({ movie }) => {
 
-  
-    
-
   return (
     <div className="border border-border hover:scale-95 transitions relative rounded overflow-hidden h-[460px] p-5">
       {/* image */}
